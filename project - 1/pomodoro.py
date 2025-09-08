@@ -24,9 +24,6 @@ def reset_timer():
 def start_timer():
     global reps
     reps += 1
-
-
-
     work_sec = WORK_MIN * 60
     SHORT_BREAK_sec = SHORT_BREAK_MIN * 60
     LONG_BREAK_sec = LONG_BREAK_MIN * 60
@@ -65,7 +62,7 @@ def count_down(count):
         check_label.config(text=mark)
             
 
-# ---------------------------- UI SETUP ------------------------------- #
+# ---------------------------- UI 설정 ------------------------------- #
 window = Tk()
 window.title("Pomodoro")
 window.config(padx=100, pady=50, bg=YELLOW)
