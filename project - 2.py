@@ -37,7 +37,7 @@ result = response.json()
 today_date = datetime.now().strftime('%Y%m%d')
 now_time = datetime.now().strftime("%X")
 
-for exercise in result["exercises"]:    #🤯🤯🤯
+for exercise in result["exercises"]:    
     sheet_input = {
         "workout": {
             "date": today_date,
