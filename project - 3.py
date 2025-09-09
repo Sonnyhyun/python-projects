@@ -4,8 +4,8 @@ import pprint
 from spotipy.oauth2 import SpotifyOAuth
 from bs4 import BeautifulSoup
 
-CLIENT_ID = "80ab4457fcb14e54909949a17cccd000"
-CLIENT_SECRET = "a20c143231c644669851d6667ad69006"
+CLIENT_ID = ""
+CLIENT_SECRET = ""
 REDIRECT_URL = "http://example.com"
 
 response = requests.get("https://www.billboard.com/charts/hot-100/2000-08-12")
