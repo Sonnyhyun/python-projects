@@ -7,8 +7,8 @@ HEIGHT_CM = "177"
 AGE = "23"
 
 
-API_ID = "f72e7d31"
-API_KEY = "fde65db7aaf83d374f13ee0d25cc94cb"
+API_ID = ""
+API_KEY = ""
 
 
 exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
